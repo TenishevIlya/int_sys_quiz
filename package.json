@@ -1,0 +1,32 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TenishevIlya/int_sys_quiz.git"
+  },
+  "author": "Ilya Tenishev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TenishevIlya/int_sys_quiz/issues"
+  },
+  "homepage": "https://github.com/TenishevIlya/int_sys_quiz#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-link-type-plugin": "^1.0.3",
+    "html-webpack-plugin": "^4.4.1",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
